@@ -4,10 +4,12 @@
 
 import * as $$$$$$$$$0 from "./actions/minicart/submit.ts";
 import * as $$$$$$$$$1 from "./actions/wishlist/submit.ts";
-import * as $$$$$$$$$$$0 from "./apps/deco/analytics.ts";
-import * as $$$$$$$$$$$1 from "./apps/deco/htmx.ts";
-import * as $$$$$$$$$$$2 from "./apps/deco/shopify.ts";
-import * as $$$$$$$$$$$3 from "./apps/site.ts";
+import * as $$$$$$$$$$$0 from "./apps/deco/ai-assistants.ts";
+import * as $$$$$$$$$$$1 from "./apps/deco/analytics.ts";
+import * as $$$$$$$$$$$2 from "./apps/deco/htmx.ts";
+import * as $$$$$$$$$$$3 from "./apps/deco/mailchimp.ts";
+import * as $$$$$$$$$$$4 from "./apps/deco/shopify.ts";
+import * as $$$$$$$$$$$5 from "./apps/site.ts";
 import * as $$$0 from "./loaders/availableIcons.ts";
 import * as $$$1 from "./loaders/icons.ts";
 import * as $$$2 from "./loaders/minicart.ts";
@@ -85,10 +87,12 @@ const manifest = {
     "site/actions/wishlist/submit.ts": $$$$$$$$$1,
   },
   "apps": {
-    "site/apps/deco/analytics.ts": $$$$$$$$$$$0,
-    "site/apps/deco/htmx.ts": $$$$$$$$$$$1,
-    "site/apps/deco/shopify.ts": $$$$$$$$$$$2,
-    "site/apps/site.ts": $$$$$$$$$$$3,
+    "site/apps/deco/ai-assistants.ts": $$$$$$$$$$$0,
+    "site/apps/deco/analytics.ts": $$$$$$$$$$$1,
+    "site/apps/deco/htmx.ts": $$$$$$$$$$$2,
+    "site/apps/deco/mailchimp.ts": $$$$$$$$$$$3,
+    "site/apps/deco/shopify.ts": $$$$$$$$$$$4,
+    "site/apps/site.ts": $$$$$$$$$$$5,
   },
   "name": "site",
   "baseUrl": import.meta.url,
